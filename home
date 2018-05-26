@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elimisha Strathmore</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="row">
+          <!––navigation menu––>
+          <ul class="main-nav">
+              <li><a href=""> HOME</a>
+              <li><a href=""> ABOUT</a>
+              <li><a href=""> DONORS</a>
+              <li><a href=""> WELL WISHERS</a>
+              <li><a href=""> BENEFICIARIES</a>
+              <li><a href=""> FINANCIAL STATEMENT</a>
+              <li><a href=""> CONTACT US</a>
+
+
+
+
+
+              </li>
+
+        </div>
+
+
+    </header>
+
+
+
+</body>
+
+
+</html>
