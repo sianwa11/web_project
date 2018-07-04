@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Progress</title>
+
+	<!-- google font-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+	<style type="text/css">
+		#chart-container{
+			width: 900px;
+			height: 1000%;
+		}
+		h2{
+			text-align: center;
+		}
+		p{
+			padding: 10px;
+			font-family: Courier New;
+			font-weight: bold;
+			font-size: 16px;
+			text-indent: 50px;
+		}
+	</style>
+</head>
+<body>
+
+	 <!-- nav-->
+ <nav>
+ <ul>
+	<li><a href="#" class="logo">ATOH <i class=" fa fa-arrow-down"></i></a></li>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Skills</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">Portfolio</a></li>
+	<li><a href="#">Work</a></li>
+	<li><a href="index.php">Back</a></li>
+ </ul>
+ </nav>
+<br>
+<br>
+
+	<h2>Number of Institutions helped per year</h2>
+	<hr style="position: center;">
+	<div id="chart-container">
+		<canvas id="mycanvas"></canvas>
+	</div>
+	<br>
+	<p>Above is a graphical represantation of the number of institutions we have helped from the year 2014 to 2017. It seems even</p>
+
+	<!--javascript-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/Chart.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<footer>
+	<div class="footer-text">
+		<h3>Copyright &copy; 2018. All rights reserved</h3>
+	</div>
+	<div class="footer-icons">
+		<a href="#"><i class="fa fa-facebook "></i></a>
+		<a href="#"><i class="fa fa-twitter "></i></a>
+		<a href="#"><i class="fa fa-google-plus "></i></a>
+		<a href="#"><i class="fa fa-map "></i></a>
+	</div>
+</footer>
+</body>
+</html>
